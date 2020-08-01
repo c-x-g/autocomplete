@@ -112,7 +112,8 @@ func suggest(pattern string) string {
 		return cache[pattern]
 	}
 
-	cache[pattern] = result
+	cache[pattern] = result // store this value in the cache so in the same session it is not
+							// calculated repeatedly
 	return result
 }
 /*
