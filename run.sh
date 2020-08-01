@@ -1,0 +1,10 @@
+curl http://localhost:9000/autocomplete?term=th
+curl http://localhost:9000/autocomplete?term=fr
+curl http://localhost:9000/autocomplete?term=pi
+curl http://localhost:9000/autocomplete?term=sh
+curl http://localhost:9000/autocomplete?term=wu
+curl http://localhost:9000/autocomplete?term=ar
+curl http://localhost:9000/autocomplete?term=il
+curl http://localhost:9000/autocomplete?term=ne
+curl http://localhost:9000/autocomplete?term=se
+curl http://localhost:9000/autocomplete?term=pl
