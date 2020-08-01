@@ -22,7 +22,9 @@ Assuming you have access to a unix machine, download the project and go to the
 directory of the project on your local machine. 
 
 Run these commands:
+
 go build autocomplete.go
+
 ./autocomplete &
 
 The second command will run the program as a process in the background and return a 
