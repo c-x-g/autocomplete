@@ -72,3 +72,25 @@ and issuing new queries will create a new autocomplete.txt and overwrite the pre
 
 In the source code I have included links to resources I referenced and used.
 
+const common = {
+  format: ["@cucumber/pretty-formatter"],
+  requireModule: ["ts-node/register"],
+  require: ["tests/e2e/step-definitions/**/*.ts"],
+};
+
+module.exports = {
+  local: {
+    ...common,
+    tags: "@local",
+  },
+  dev: {
+    ...common,
+    tags: "@dev",
+  },
+  qa: {
+    ...common,
+    tags: "@qa",
+  },
+};
+
+
